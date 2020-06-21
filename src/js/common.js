@@ -174,7 +174,9 @@ var swiper = new Swiper('.swiper-container', {
 });
 
 // WOW + animate
-new WOW().init();
+new WOW({
+  mobile: false
+}).init();
 
 $WINDOW.on('load', function () {
   $HTML.addClass('page-loaded');
