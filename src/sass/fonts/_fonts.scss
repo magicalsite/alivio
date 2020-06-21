@@ -1,0 +1,21 @@
+@import "../utils/mixins";
+
+// =============================================================================
+// Google Fonts
+// =============================================================================
+// @import url('https://fonts.googleapis.com/css?family=Montserrat:400,600,700|Roboto&display=swap');
+
+// =============================================================================
+// Font Face
+// =============================================================================
+
+// Lato
+// ----------------------------------------------------
+@include font-face("lato-regular", "../fonts/Lato/latoregular", normal, normal, eot ttf woff);
+@include font-face("lato-medium", "../fonts/Lato/latomedium", normal, normal, eot ttf woff);
+@include font-face("lato-semibold", "../fonts/Lato/latosemibold", normal, normal, eot ttf woff);
+
+// Georgia
+// ----------------------------------------------------
+@include font-face("georgia-regular", "../fonts/Georgia/Georgia", normal, normal, eot ttf woff);
+@include font-face("georgia-bold", "../fonts/Georgia/Georgia-Bold", normal, normal, eot ttf woff);

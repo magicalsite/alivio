@@ -1,0 +1,53 @@
+<div class="p-preloader js-p-preloader">
+  <div class="p-preloader__content">
+    <div class="p-preloader__logo"></div>
+  </div>
+</div>
+
+<!--HEADER-->
+<header class="header animate__animated wow animate__fadeIn" data-wow-delay="1s">
+    <div class="layout-page layout-page-spaces">
+      <div class="header__container">
+        <a href="#" class="logo"><img src="img/logo.svg" alt=""></a>
+        <!-- <nav class="menu">
+          <a href="#" class="menu__item">Why Alivio</a>
+          <a href="#" class="menu__item">Solutions</a>
+          <a href="#" class="menu__item">Community</a>
+          <a href="#" class="menu__item">Pricing</a>
+        </nav> -->
+        <div class="menu">
+          <a href="#mainNav" class="nav-opener nav-opener-js">Open menu</a>
+          <div class="nav-wrap" id="mainNav">
+            <div class="nav-header">
+              @@if(context.currentItem != 'Home'){<a href="index.html" class="logo-nav" title="Alivio">Alivio</a>}
+              @@if(context.currentItem == 'Home'){<span class="logo-nav">Alivio</span>}
+              <a href="#" class="nav-close-btn nav-close-btn-js">Close menu</a>
+            </div>
+            <nav class="nav">
+              <ul class="nav__list nav-js">
+                <!-- @@if(context.currentItem != 'Home'){<li><a href="index.html">Home</a></li>} -->
+  
+                @@if(context.currentItem == 'Why Alivio'){<li class="current"><span>Why Alivio</span></li>}
+                @@if(context.currentItem != 'Why Alivio'){<li><a href="#">Why Alivio</a></li>}
+  
+                @@if(context.currentItem == 'Solutions'){<li class="current"><span>Solutions</span>}
+                @@if(context.currentItem != 'Solutions'){<li><a href="#">Solutions</a></li>}
+
+                @@if(context.currentItem == 'Community'){<li class="current"><span>Community</span>}
+                @@if(context.currentItem != 'Community'){<li><a href="#">Community</a></li>}
+
+                @@if(context.currentItem == 'Pricing'){<li class="current"><span>Pricing</span>}
+                @@if(context.currentItem != 'Pricing'){<li><a href="#">Pricing</a></li>}
+              </ul>
+            </nav>
+          </div>
+          <div class="nav-overlay"></div>
+        </div>
+        <div class="button">
+          <a href="#" class="button__singIn">Sign in</a>
+          <a href="#" class="button__startTrial button-decor">Start Trial</a>
+        </div>
+      </div>
+    </div>
+</header>
+<!--HEADER end-->
