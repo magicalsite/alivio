@@ -1,6 +1,9 @@
 <!DOCTYPE html>
 <!--[if lte IE 9]><html class="no-js old-ie" lang="en"><![endif]-->
-<!--[if gt IE 9]><!--><html class="no-js" lang="en"><!--<![endif]-->
+<!--[if gt IE 9]><!-->
+<html class="no-js" lang="en">
+<!--<![endif]-->
+
 <head>
   <meta charset="UTF-8">
   <title>@@title</title>
@@ -33,7 +36,7 @@
   <link rel="apple-touch-icon" sizes="144x144" href="./img/favicon/apple-icon-144x144.png">
   <link rel="apple-touch-icon" sizes="152x152" href="./img/favicon/apple-icon-152x152.png">
   <link rel="apple-touch-icon" sizes="180x180" href="./img/favicon/apple-icon-180x180.png">
-  <link rel="icon" type="image/png" sizes="192x192"  href="./img/favicon/android-icon-192x192.png">
+  <link rel="icon" type="image/png" sizes="192x192" href="./img/favicon/android-icon-192x192.png">
   <link rel="icon" type="image/png" sizes="32x32" href="./img/favicon/favicon-32x32.png">
   <link rel="icon" type="image/png" sizes="96x96" href="./img/favicon/favicon-96x96.png">
   <link rel="icon" type="image/png" sizes="16x16" href="./img/favicon/favicon-16x16.png">
@@ -49,8 +52,10 @@
   <!--Modernizr-->
   <script src="js/modernizr.min.js"></script>
 </head>
-<body
-@@if(context.pageClass){ class="@@pageClass"}>
-<noscript><div class="no-js-warning">Для корректной работы сайта <b>включите JavaScript</b> в браузере</div></noscript>
-<!--[if lte IE 9]>
+
+<body @@if(context.pageClass){ class="@@pageClass" }>
+  <noscript>
+    <div class="no-js-warning">Для корректной работы сайта <b>включите JavaScript</b> в браузере</div>
+  </noscript>
+  <!--[if lte IE 9]>
 <div class="browserupgrade"><p>You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p></div> <![endif]-->

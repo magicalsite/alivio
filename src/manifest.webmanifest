@@ -1,25 +1,25 @@
 {
-  "name": "Clover Nikhola Khlusov Studio",
-  "short_name": "Clover Nikhola Khlusov Studio",
-  "description": "Clover Nikhola Khlusov Studio",
+  "name": "Alivio",
+  "short_name": "Alivio",
+  "description": "Alivio",
   "display": "standalone",
   "background_color": "#fff",
   "theme_color": "#fff",
   "icons": [
     {
-      "src": "apple-touch-icon.png",
+      "src": "./img/favicon/apple-icon-180x180.png",
       "type": "image/png",
-      "sizes": "256x256"
+      "sizes": "180x180"
     },
     {
-      "src": "favicon.ico",
+      "src": "./img/favicon/favicon.ico",
       "type": "icon/ico",
       "sizes": "16x16"
     },
     {
       "src": "share.jpg",
       "type": "image/jpg",
-      "sizes": "1200x630"
+      "sizes": "1920x980"
     }
   ]
 }
