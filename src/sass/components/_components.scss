@@ -863,6 +863,16 @@
   }
 }
 
+.swiper-button-next {
+  background-image: url(../../img/icon-arr-right.svg);
+  right: 10px;
+}
+
+.swiper-button-prev {
+  background-image: url(../../img/icon-arr-left.svg);
+  left: 10px;
+}
+
 .steps {
   padding: 169px 0 51px 0;
 
@@ -954,6 +964,10 @@
 
   img {
     border-radius: 12px;
+
+    @include media("<mob") {
+      width: 100%;
+    }
   }
 
   &__number {
