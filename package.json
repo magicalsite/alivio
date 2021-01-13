@@ -44,7 +44,7 @@
     "jquery-debouncedresize": "0.0.2",
     "jquery-form": "^4.2.2",
     "jquery-placeholder": "^2.3.1",
-    "jquery-validation": "^1.17.0",
+    "jquery-validation": "^1.19.3",
     "mathsass": "^0.9.5",
     "mobile-detect": "^1.4.4",
     "normalize-scss": "^7.0.1",
